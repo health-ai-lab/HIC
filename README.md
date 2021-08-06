@@ -8,7 +8,7 @@ M. Mirtchouk, B. Srikishan, and S. Kleinberg. Hierarchical Information Criterion
 
 This code implements the HIC formula described in the paper above. This approach takes a hierarchy (e.g. ICD-9 codes), data about the hierarchy in regards to the outcome (e.g. for each ICD-9 code, the amount of people with that code, and how many of those had died) 
 The primary application for the method is feature ranking based on hierarcical data.
-We further assume an ontology is provided, which contains paths such as: root->250->250.0->250.00. In our ontology format:
+We further assume an ontology is provided, which contains paths such as: root->250->250.0->250.00. In our ontology format: \
 root,250  \
 250,250.0  \
 250.0,250.00  
