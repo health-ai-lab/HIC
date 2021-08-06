@@ -11,7 +11,7 @@ The primary application for the method is feature ranking based on hierarcical d
 We further assume an ontology is provided, which contains paths such as: root->250->250.0->250.00. In our ontology format:
 root,250  \
 250,250.0  \
-250.0,250.00  \
+250.0,250.00  
 
 ## Using the code
 
@@ -65,9 +65,9 @@ D,200,160 \
 E,400,150 \
 F,300,150 \
 G,75,30 \
-H,50,10 \
+H,50,10 
 
-weightsfn.csv example \
+weightsfn.csv example 
 
 branch,0.452 \
 tree,0.548
