@@ -24,7 +24,7 @@ root,250  \
 3. weightsfn format: ensure there are 2 rows: 1 for branch statistical significance and 1 for tree statistical significance which sum to 1. 
 e.g.  \
 branch,X  \
-tree,Y  \
+tree,Y  
 
 4. Prepare a directory to save the output file picklefn
 
